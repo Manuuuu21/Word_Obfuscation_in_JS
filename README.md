@@ -6,12 +6,12 @@
 ## Purpose of Obfuscation
 Obfuscation of JavaScript code serves several purposes:
 
-Code Protection: It helps protect the original source code of a JavaScript application, making it difficult for others to understand or modify the code1. This is crucial for protecting sensitive data like authentication tokens, API keys, and proprietary algorithms1.
+1. Code Protection: It helps protect the original source code of a JavaScript application, making it difficult for others to understand or modify the code. This is crucial for protecting sensitive data like authentication tokens, API keys, and proprietary algorithms.
 
-Deter Reverse Engineering: Obfuscating your code helps deter reverse engineering attempts and safeguards sensitive algorithms, proprietary logic, or any critical parts of your JS code2.
+2. Deter Reverse Engineering: Obfuscating your code helps deter reverse engineering attempts and safeguards sensitive algorithms, proprietary logic, or any critical parts of your JS code.
 
-Hide Targetable Parts: The main objective of obfuscating your JavaScript code is to hide the parts of the code that attackers could target by hiding things like strings, objects, and variables3.
+3. Hide Targetable Parts: The main objective of obfuscating your JavaScript code is to hide the parts of the code that attackers could target by hiding things like strings, objects, and variables.
 
-Conceal Data Meaning: Essentially, obfuscation makes it hard to analyze your code to conceal the meaning of the data3.
+4. Conceal Data Meaning: Essentially, obfuscation makes it hard to analyze your code to conceal the meaning of the data.
 
 Remember, while obfuscation can enhance the security of your JavaScript code, it should be part of a broader security strategy as it does not provide absolute protection against all types of attacks.
