@@ -1,6 +1,6 @@
 _0x636f6e76657274546f48657861646563696d616c=()=> {
-	var _0x776f7264 = document.getElementById("_0x696e705f6f62667573636174696f6e").value;
-	var _0x686578576f7264 = "";
+	let _0x776f7264 = document.getElementById("_0x696e705f6f62667573636174696f6e").value;
+	let _0x686578576f7264 = "";
 
 	for (let _0x69 = 0; _0x69 < _0x776f7264.length; _0x69++) {
 		    let _0x68657861646563696d616c = _0x776f7264.charCodeAt(_0x69).toString(16);
