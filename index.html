@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Obfuscation</title>
+</head>
+<style type="text/css">
+	body {
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    input {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #2196F3;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1565c0;
+    }
+
+    hr {
+      margin: 20px 0;
+      border: none;
+      border-top: 1px solid #ddd;
+    }
+</style>
+<body>
+
+<h1>Word Obfuscation converting in Hexadecimal</h1>
+<h1 id="_0x6f62667573636174696f6e5f76616c7565"></h1>
+<input type="text" name="text" id="_0x696e705f6f62667573636174696f6e" />
+<button onclick="_0x636f6e76657274546f48657861646563696d616c()">Convert it to hexadecimal</button>
+
+<hr/>
+<br/>
+<h1>Decrypt Obfuscation text converting in original word</h1>
+<h1 id="_0x646563727970745f68657861"></h1>
+<input type="text" name="text" id="_0x646563727970745f686578615f76616c" />
+<button onclick="_0x636f6e76657274546865486578546f4f726967696e616c()">Convert it to hexadecimal</button>
+
+<script type="text/javascript">
+	_0x636f6e76657274546f48657861646563696d616c=(_0x776f7264)=> {
+		this._0x776f7264 = _0x776f7264;
+		var _0x776f7264 = document.getElementById("_0x696e705f6f62667573636174696f6e").value;
+		var _0x686578576f7264 = "";
+
+		for (let i = 0; i < _0x776f7264.length; i++) {
+		    let _0x68657861646563696d616c = _0x776f7264.charCodeAt(i).toString(16);
+		    _0x686578576f7264 += _0x68657861646563696d616c;
+		}
+
+		console.log(`Hexadecimal representation of: _0x${_0x686578576f7264}`);
+		document.getElementById("_0x6f62667573636174696f6e5f76616c7565").innerHTML = `_0x` + _0x686578576f7264;
+	}
+
+
+	_0x636f6e76657274546865486578546f4f726967696e616c=(_0x776f7264)=> {
+		let _0x686578537472696e67 = document.getElementById("_0x646563727970745f686578615f76616c").value;
+		let _0x737472 = '';
+
+		// Remove the "_0x" prefix
+		if (_0x686578537472696e67.startsWith('_0x')) {
+		    _0x686578537472696e67 = _0x686578537472696e67.slice(3);
+		}
+
+		for (let i = 0; i < _0x686578537472696e67.length; i += 2) {
+		    let _0x686578 = _0x686578537472696e67.substring(i, i+2);
+		    let _0x63686172 = String.fromCharCode(parseInt(_0x686578, 16));
+		    _0x737472 += _0x63686172;
+		}
+
+		console.log(`English representation of Hexadecimal: ${_0x737472}`);
+		document.getElementById("_0x646563727970745f68657861").innerHTML = _0x737472;
+	}
+</script>
+
+</body>
+</html>
